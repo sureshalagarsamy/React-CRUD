@@ -1,0 +1,77 @@
+.table-data-panel {
+	display       : flex;
+	flex-direction: column;
+}
+
+.table-data {
+	display       : flex;
+	flex-direction: row;
+	width         : 100%;
+	font-size     : 13px;
+	height        : 27px;
+	align-items   : center;
+	border-bottom : 1px solid #DDD;
+}
+
+.table-data-editable {
+	height: 54px;
+}
+
+.table-data-editable input {
+	border          : 1px solid #BBB;
+	background-color: #ECECEC;
+	padding         : 3px;
+	height          : 27px;
+}
+
+.table-data-editable input:focus,
+.table-data-editable input:focus-visible {
+	background-color: #ECECEC;
+	border          : 1px solid #BBB;
+}
+
+.pagination {
+	display        : flex;
+	width          : 100%;
+	padding        : 0;
+	list-style-type: none;
+	font-size      : 12px;
+	justify-content: flex-end;
+}
+
+.pagination li {
+	display         : flex;
+	height          : 33px;
+	width           : 33px;
+	align-items     : center;
+	justify-content : center;
+	border-left     : 1px solid #BBB;
+	border-top      : 1px solid #BBB;
+	border-bottom   : 1px solid #BBB;
+	cursor          : pointer;
+	background-color: #F2F2F2;
+}
+
+.pagination__link {
+	display: flex;
+}
+
+.pagination__link--active {
+	background-color: floralwhite;
+}
+
+.break {
+	background-color: #FFF !important;
+	cursor          : default !important;
+}
+
+.previous,
+.next {
+	color      : coral;
+	font-weight: bold;
+	font-size  : 14px;
+}
+
+.next {
+	border-right: 1px solid #BBB;
+}

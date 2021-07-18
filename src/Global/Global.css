@@ -1,0 +1,57 @@
+.column-one,
+.column-two,
+.column-three,
+.column-four,
+.column-five {
+	display   : flex;
+	flex-grow : 1;
+	flex-basis: 0;
+}
+
+.column-five {
+	display        : flex;
+	width          : 100%;
+	justify-content: flex-end;
+}
+
+.emptySquare,
+.checkBox {
+	width          : 15px;
+	height         : 15px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	cursor         : pointer;
+}
+
+.emptySquare svg {
+	width : 13px;
+	height: 13px;
+}
+
+.checkBox svg {
+	width : 15px;
+	height: 15px;
+}
+
+.editIcon,
+.deleteIcon {
+	width       : 16px;
+	height      : 16px;
+	margin-right: 12px;
+	cursor      : pointer;
+}
+
+.deleteIcon {
+	margin-right: 0;
+}
+
+.editIcon svg {
+	font-size: 14px;
+	color    : #544444;
+}
+
+.deleteIcon svg {
+	font-size: 14px;
+	color    : orangered;
+}

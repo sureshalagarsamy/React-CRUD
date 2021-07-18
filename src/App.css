@@ -1,0 +1,34 @@
+.App {
+	text-align: center;
+}
+
+#root {
+	background-color: #FFF;
+}
+
+.page-content {
+	display         : flex;
+	padding         : 15px;
+	background-color: #FFF;
+	flex-direction  : column;
+	font-size       : 14px;
+	max-width       : 950px;
+	margin          : 0 auto;
+}
+
+.filter-panel {
+	display      : flex;
+	width        : 100%;
+	margin-bottom: 9px;
+}
+
+.filter-panel>input {
+	width    : inherit;
+	height   : 27px;
+	font-size: 14px;
+}
+
+.table-panel {
+	display       : flex;
+	flex-direction: column;
+}
