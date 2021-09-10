@@ -59,6 +59,7 @@ const TableData: React.FunctionComponent<IProps> = ( props ) => {
 
 	async function fetchData() {
 		try {
+			// tableData.json available incase the below URL doesn't work
 			const response = await axios.get( 'https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json' );
 			setResponse( response.data );
 		} catch ( e ) {
